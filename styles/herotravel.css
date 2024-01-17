@@ -98,10 +98,10 @@ padding: 0 40px;
     border-radius: 16px;
 }
 .Choose-last{
-    display: flex;
-   justify-content: center;
+    text-align: center;
    background-color: cadetblue;
-   padding: 10px 150px;
+   padding: 10px 13px;
+   border-radius: 16px;
 }
 .deals-discount{
     
@@ -116,6 +116,7 @@ padding: 0 40px;
     background-image: url(../Images/Group\ 39.png);
     background-repeat: no-repeat;
 }
+.cb
 /* jk */
 .Perfect-Place{display: flex;
 justify-content: space-between;
