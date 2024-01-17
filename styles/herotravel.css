@@ -1,0 +1,76 @@
+/* Header Style */
+nav{
+    background-color: azure;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    color: #131318;
+font-size: 2rem;
+font-weight: 800;
+}
+nav > ul{
+    display: flex;
+    padding: 10px 0px;
+    padding-right: 40px;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 400;
+    font-size: 1rem;
+    
+}
+nav li a{
+    text-decoration: none;
+    color:  #424247;
+}
+.banner-img{
+    background-image: url(../Images/Group\ 40.png);
+    background-size: cover;
+    
+}
+.popular-tour{
+    display: flex;
+    padding: 100px 135px;
+    gap: 20px;
+    
+}
+.btn-primary{
+    background-color: orangered;
+    border: transparent;
+    border-radius: 16px;
+    color: #FFF;
+    text-align: center; 
+    font-size: 15px;
+}
+.tour-img{
+    width: 540px;
+height: 100px;
+}
+.destination-div{
+    text-align: center;
+}
+/* .destination-img{
+    padding-right: 50px;
+    padding-left: 50px;
+    display: grid;
+    grid-template-columns:repeat(2, 1fr) ;
+} */
+.destination-img1{
+display: grid;
+gap: 12px;
+padding: 0 40px;
+}
+.choose-us{
+    text-align: center;
+}
+.choose-section{
+    display: flex;
+    justify-content: space-between;
+}
+.Choose-last{
+    display: flex;
+   justify-content: center;
+}
