@@ -1,6 +1,6 @@
 /* Header Style */
 nav{
-    background-color: azure;
+    background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,10 +26,16 @@ nav li a{
     text-decoration: none;
     color:  #424247;
 }
+/* Main STyle */
 .banner-img{
     background-image: url(../Images/Group\ 40.png);
-    background-size: cover;
+    background-repeat: no-repeat;
     
+}
+.banner-content{
+    align-items: center;
+    justify-content: center;
+
 }
 .popular-tour{
     display: flex;
@@ -69,8 +75,42 @@ padding: 0 40px;
 .choose-section{
     display: flex;
     justify-content: space-between;
+    padding: auto;
+}
+.choose-1{
+    background-color: aqua;
+    border-radius: 16px;
+}
+.choose-2{
+    background-color: blanchedalmond;
+    border-radius: 16px;
 }
 .Choose-last{
     display: flex;
    justify-content: center;
+   background-color: cadetblue;
+   padding: 10px 150px;
+}
+.deals-discount{
+    
+}
+.deals-title{
+    text-align: center;
+}
+.deals-description{
+
+}
+.first-deals{
+    background-image: url(../Images/Group\ 39.png);
+    background-repeat: no-repeat;
+}
+/* jk */
+.Perfect-Place{display: flex;
+justify-content: space-between;
+padding:30px 80px;
+}
+.main-last{
+    display: flex;
+    justify-content: space-between;
+    padding:30px 80px;
 }
