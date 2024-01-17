@@ -33,9 +33,21 @@ nav li a{
     
 }
 .banner-content{
-    align-items: center;
-    justify-content: center;
+    text-align: center;
+    color: #FFF;
 
+}
+.explore{
+    border-radius: 12px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 8px 18px;
+}
+.find-btn{
+    color: white;
+    background: orangered;
+    border-radius: 8px;
+    padding: 8px 18px;
 }
 .popular-tour{
     display: flex;
